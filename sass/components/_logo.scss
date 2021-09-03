@@ -1,0 +1,28 @@
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+  color: var(--main-color);
+  text-decoration: none;
+  margin-right: 94px; 
+}
+.logo:hover,
+.logo:focus {
+  cursor: pointer;
+}
+
+.logo__lightstyle {
+  color: var(--second-color);
+  text-decoration: none;
+}
+
+/*.logo-nav*/
+.logo__darkstyle {
+  color: var(--main-color);
+}
+
+.logo__darkstyle:hover,
+.logo__darkstyle:focus {
+  cursor: pointer;
+}

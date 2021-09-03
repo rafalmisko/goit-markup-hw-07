@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "main.scss",
+        "utils/_visually-hidden.scss",
+        "base/_common.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}

@@ -1,0 +1,69 @@
+body {
+  font-family: "Roboto", "Open Sans", sans-serif;
+color: #212121;
+  text-decoration: none;
+  }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --main-color: #212121;
+  --second-color: #2196f3;
+  --third-color: #ffffff;
+  --additional-color: #757575;
+  --greystyle-color:  #afb1b8;
+  --fourth-color: #f5f4fa; 
+  --fifth-color: #2f303a;  
+  --sixth-color: #ececec; 
+  --seventh-color: #eeeeee;
+  --eighth-color: rgba(255, 255, 255, 0.6);
+  --ninth-color: 0px 3px 1px rgba(0, 0, 0, 0.1),
+    0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  --tenth-color:  rgba(255, 255, 255, 0.1);
+  --eleventh-color: rgba(0,0,0,0.1); 
+ 
+  
+  
+}
+
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+
+
+ul,
+ol {
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+}
+
+a {
+  text-decoration: inherit;
+  cursor: pointer;
+  color: inherit;
+}
+
+
+ul {
+  list-style-type: none;
+}
