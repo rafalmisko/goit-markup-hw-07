@@ -40,14 +40,12 @@
   border-color: #afb1b8;
   border-radius: 4px;
 
-}
-
-.customer__logo:hover,
-.customer__logo:focus {
+&:hover,
+&:focus {
   border-color: #2196f3;
   cursor: pointer; 
   fill: var(--second-color);
-}
+} }
 
 .customer__icon:hover,
 .customer__icon:focus {

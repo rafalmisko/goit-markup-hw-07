@@ -6,11 +6,11 @@
   color: var(--main-color);
   text-decoration: none;
   margin-right: 94px; 
-}
-.logo:hover,
-.logo:focus {
+
+&:hover,
+&:focus {
   cursor: pointer;
-}
+} }
 
 .logo__lightstyle {
   color: var(--second-color);

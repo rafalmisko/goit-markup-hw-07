@@ -106,29 +106,29 @@
   width: 44px;
   height: 44px;
   border-radius: 50%;
-}
 
 
+&:hover,
+&:focus {
+
+  fill: #2196f3;
+  color: #2196f3;
+  background-color: #2196f3;
+} }
 
 .footer-social-media {
   padding-left: 70px;
   margin-bottom: 20px;
   padding-top: 11px;
-}
 
-.footer-social-media:hover,
-.footer-social-media:focus {
+
+&:hover,
+&:focus {
   color: var(--second-color);
   cursor: pointer;
-}
+} }
 
-.footer-social-media__link:hover,
-.footer-social-media__link:focus {
 
-  fill: #2196f3;
-  color: #2196f3;
-  background-color: #2196f3;
-}
 
 .footer-social-media__header {
   font-weight: 700;

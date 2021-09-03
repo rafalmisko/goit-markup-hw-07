@@ -26,15 +26,13 @@
   display: flex;
   color: var(--main-color);
 
-}
-
-.header-navigation__item:hover,
-.header-navigation__item:focus {
+&:hover,
+&:focus {
      
   cursor: pointer;
   color: var(--second-color);
    
-}
+} }
 
 .header-navigation__list .header-navigation__item:not(last-child) {
   margin-right: 46px;
@@ -80,6 +78,11 @@
  
 /*========== NAV PHONE AND MAIL/ SOCIAL ICONS ==========*/
 
+.header-contact__icon {
+   
+  margin-right: 10px;
+}
+
 .header-contact__item {
   display: flex;
   align-items: center;
@@ -90,17 +93,11 @@
   letter-spacing: 0.02em;
   margin-left: auto;
   color: var(--additional-color);
-}
 
-/* sprawdź    */
-.header-contact__icon {
-   
-  margin-right: 10px;
-}
 
-.header-contact__item:hover,
-.header-contact__item:focus {
+&:hover,
+&:focus {
   fill: var(--second-color);
   color: var(--second-color);
   cursor: pointer;
-}
+} }
