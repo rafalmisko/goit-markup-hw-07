@@ -87,8 +87,7 @@ ul {
   color: var(--main-color);
 }
 
-.logo__darkstyle:hover,
-.logo__darkstyle:focus {
+.logo__darkstyle:hover, .logo__darkstyle:focus {
   cursor: pointer;
 }
 
@@ -645,16 +644,6 @@ ul {
   padding-bottom: 94px;
 }
 
-.about h2 {
-  font-weight: 700;
-  font-size: 36px;
-  margin-bottom: 50px;
-  line-height: 1.167;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--main-color);
-}
-
 .about__container {
   max-width: 1200px;
   min-height: 80px;
@@ -689,6 +678,16 @@ ul {
   text-transform: uppercase;
   color: var(--third-color);
   background-color: rgba(47, 48, 58, 0.8);
+}
+
+.about h2 {
+  font-weight: 700;
+  font-size: 36px;
+  margin-bottom: 50px;
+  line-height: 1.167;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-color);
 }
 
 .our-team {

@@ -5,7 +5,7 @@
 
 }
 
- .our-team__container {
+&__container {
     max-width: 1200px;
     min-height: 80px;
     padding: 0 15px;
@@ -13,7 +13,7 @@
 
  }
 
-.our-team__header  {
+&__header  {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.167;
@@ -22,16 +22,16 @@
   color: var(--main-color);
 }
 
-.our-team__list {
+&__list {
   display: flex;
 
 }
 
-.our-team__item {
+&__item {
   margin: 50px 15px 0px;
 }
 
-.our-team__profile {
+&__profile {
   background-color: var(--third-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -41,7 +41,7 @@
 }
 
 
-.our-team__name {
+&__name {
   font-size: 16px;
   line-height: 1.1875;
   text-align: center;

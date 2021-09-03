@@ -4,7 +4,7 @@
   background-color: var(--fifth-color);
 }
 
-.footer__container {
+&__container {
    display: flex;
    max-width: 1200px;
    min-height: 80px;
@@ -12,7 +12,7 @@
    margin: 0 auto;
 }
  
-.footer__bluestyle {
+&__bluestyle {
   font-family: "Raleway", sans-serif;
   font-weight: bold;
   font-size: 26px;
@@ -22,7 +22,7 @@
   cursor: pointer;
 }
 
-.footer__whitestyle {  
+&__whitestyle {  
  
   font-family: "Raleway", sans-serif;
   font-weight: bold;
@@ -45,25 +45,28 @@
   letter-spacing: 0.03em;
   font-style: normal;
   color: var(--third-color);
-}
 
-.footer__address:hover,
-.footer__address:focus {
+
+&:hover,
+&:focus {
   color: var(--second-color);
   cursor: pointer;
-}
+} }
 
-.footer__mail:hover,
-.footer__mail:focus {
+.footer__phone {
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  font-style: normal;
+  color: var(--eighth-color);
+  cursor: pointer;
+
+
+&:hover,
+&:focus {
   color: var(--second-color);
   cursor: pointer;
-}
-
-.footer__phone:hover,
-.footer__phone:focus {
-  color: var(--second-color);
-  cursor: pointer;
-}
+} }
 
 .footer__mail {
   font-size: 14px;
@@ -73,16 +76,14 @@
   font-style: normal;
   color: var(--eighth-color);
   cursor: pointer;
-}
 
-.footer__phone {
-  font-size: 14px;
-  line-height: 1.714;
-  letter-spacing: 0.03em;
-  font-style: normal;
-  color: var(--eighth-color);
+
+&:hover,
+&:focus {
+  color: var(--second-color);
   cursor: pointer;
-}
+} }
+
 
 .footer-social-media__item {
   fill: var(--greystyle-color); 

@@ -20,9 +20,8 @@
 /*.logo-nav*/
 .logo__darkstyle {
   color: var(--main-color);
-}
 
-.logo__darkstyle:hover,
-.logo__darkstyle:focus {
+&:hover,
+&:focus {
   cursor: pointer;
-}
+} }
