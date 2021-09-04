@@ -101,6 +101,7 @@
 }
 
 .portfolio__bottom-section {
+  padding: 20px 24px; 
   border-left: 1px solid var(--seventh-color);
   border-right: 1px solid var(--seventh-color);
   border-bottom: 1px solid var(--seventh-color);
@@ -111,9 +112,6 @@
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  padding-top: 20px;
-  padding-right: 24px;
-  padding-left: 24px;
   color: var(--main-color);
 }
 
