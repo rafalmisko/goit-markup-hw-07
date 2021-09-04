@@ -488,10 +488,6 @@ ul {
   gap: 30px;
 }
 
-.portfolio__item {
-  margin: 10px;
-}
-
 .portfolio__item:hover, .portfolio__item:focus {
   background-color: #ffffff;
   box-sizing: border-box;
