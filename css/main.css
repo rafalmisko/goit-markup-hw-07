@@ -180,7 +180,7 @@ ul {
   border-radius: 4px;
 }
 
-.modal-form:hover, .modal-form:focus {
+.modal-form__input:hover, .modal-form__input:focus {
   outline: none;
   fill: var(--second-color);
   color: var(--second-color);
