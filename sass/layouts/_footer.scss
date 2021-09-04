@@ -2,7 +2,7 @@
   padding-top: 94px;
   padding-bottom: 94px;
   background-color: var(--fifth-color);
-}
+
 
 &__container {
    display: flex;
@@ -51,7 +51,7 @@
 &:focus {
   color: var(--second-color);
   cursor: pointer;
-} }
+} }}
 
 .footer__phone {
   font-size: 14px;

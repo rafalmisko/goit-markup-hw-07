@@ -31,15 +31,13 @@
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--main-color); 
-
 }
-
 
 .modal-form {
   display: flex; 
   flex-direction: column;
 
-}
+
 
 &__item {
    position: relative;  
@@ -49,7 +47,8 @@
 &__icon {
   position: absolute;
   top: 14px;
-  left: 15px;
+  left: 15px; 
+  }
   
 &:hover,
 &:focus {
@@ -60,7 +59,7 @@
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
-} }
+} 
 
 &__label {
   
@@ -79,6 +78,7 @@
     padding: 12px 42px; 
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
+    }
   
 &:hover,
 &:focus {
@@ -92,7 +92,7 @@
    transition-duration: 250ms;
    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
 
-} }
+} } 
 /*modal-form_label zle  */
 .modal-form__input:focus + .modal-form__icon {
 
